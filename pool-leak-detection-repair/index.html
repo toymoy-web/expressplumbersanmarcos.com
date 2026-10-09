@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -189,6 +211,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This covers plumbing-related leaks, supply and return lines, equipment pad fittings, and related plumbing components. Shell and plaster repairs are typically handled by a pool specialist rather than a plumber."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you check a spa or hot tub leak?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Describe the equipment and where you see water when you call. The plumber can tell you whether the issue falls within pool and spa plumbing or needs a different specialist."
       }
     }
   ]
@@ -261,19 +291,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -285,131 +309,92 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section style="padding-top:2.5rem">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Pool Leak Detection & Repair
-    </nav>
-    <h1>Pool Leak Detection & Repair in San Marcos, CA</h1>
-    <p style="font-size:1.1rem;color:var(--text);margin-top:.75rem">A pool that's losing more water than a hot North County summer accounts for usually has a real leak somewhere in the plumbing, the shell, or the equipment pad, rather than simple evaporation. With San Elijo Hills, Lake San Marcos, and other newer San Marcos communities carrying a meaningful share of pool-equipped homes, this is a genuinely common call rather than a rare specialty request.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0">
-      <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/pool-leak-detection-repair-hero.webp" alt="Pool Leak Detection & Repair in San Marcos, CA" width="1200" height="900">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Pool Leak Detection & Repair</nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Pool Leak Detection & Repair in San Marcos, CA</h1>
+        <p class="lead">A pool that's losing more water than a hot North County summer accounts for usually has a real leak somewhere in the plumbing, the shell, or the equipment pad, rather than simple evaporation. With San Elijo Hills, Lake San Marcos, and other newer San Marcos communities carrying a meaningful share of pool-equipped homes, this is a genuinely common call rather than a rare specialty request.</p>
+        
+        
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      </div>
+      <div class="hero-card">
+        <div class="lbl">Talk to a plumber now</div>
+        <div class="num">(760) 986-1999</div>
+        <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
+        <p class="hc-note">&#128222; Open 24/7 for emergencies.</p>
+      </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <img src="/assets/img/photos/pool-leak-detection-repair-hero.webp" alt="Pool Leak Detection & Repair in San Marcos, CA" width="1200" height="900" loading="lazy" class="featured-img">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How We Diagnose the Problem</h2>
-    <p>The first step is confirming there's an actual leak rather than normal evaporation, using a bucket test: fill a bucket with pool water, set it on a step so the water levels match, and compare the drop in both after 24 hours. If the pool drops noticeably more than the bucket, that's a real leak, not just summer evaporation. From there, dye testing at suspected fitting locations and pressure testing the underground plumbing lines narrow down whether the leak is in the shell, a skimmer, a light niche, or a buried pipe run between the pool and the equipment pad.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>Signs You Need This Service</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>How We Diagnose the Problem</h2>
+    <p>The first step is confirming there's an actual leak rather than normal evaporation, using a bucket test: fill a bucket with pool water, set it on a step so the water levels match, and compare the drop in both after 24 hours. If the pool drops noticeably more than the bucket, that's a real leak, not just summer evaporation. From there, dye testing at suspected fitting locations and pressure testing the underground plumbing lines narrow down whether the leak is in the shell, a skimmer, a light niche, or a buried pipe run between the pool and the equipment pad.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Describe the pool leak detection & repair problem and we book the earliest visit.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>A plumber finds the actual cause first, so the scope and price are clear before work begins.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options, a firm explanation, and the work done properly.</p></div></div></div>
+      <div class="block block--signs"><h2>Signs You Need This Service</h2>
       <ul class="checklist">
         <li>Water level dropping noticeably faster than a bucket test accounts for</li><li>A consistently running pool pump that seems to be adding water more than usual</li><li>Wet or unusually soggy ground near the pool equipment pad or along a plumbing run</li><li>A cracked or visibly damaged pool light niche or skimmer housing</li><li>Air bubbles coming from a return jet during normal operation</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Pool Leak Detection & Repair Pricing &amp; What Affects It</h2>
-    <p>A leak isolated to an accessible fitting or a skimmer is a relatively contained repair. A leak in a buried plumbing line running under decking or hardscape is a larger job, and the diagnostic step, confirming exactly which line and where along its run, is what keeps that repair from turning into unnecessary excavation across the whole yard.</p>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Bucket Test vs. Professional Leak Detection</h2>
-    <p>The bucket test is a useful first step any homeowner can do, but it only confirms that a leak exists, not where it is. Professional detection combines dye testing at suspected fittings, pressure testing isolated sections of plumbing, and sometimes underwater camera inspection to find the specific location, which is what actually determines whether the fix is a simple fitting repair or a more involved plumbing line repair.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Shell Leaks vs. Plumbing Leaks</h2>
-    <p>A leak in the pool's shell itself, a crack in plaster or a separated tile line, behaves differently from a leak in the underground plumbing connecting the pool to its equipment. Shell leaks often show a water level that stabilizes at a specific point (wherever the crack sits below the waterline), while plumbing leaks can drain the pool further depending on which line is affected and whether it's a pressure-side or suction-side leak.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Equipment Pad Leaks Are Often the Easiest Fix</h2>
-    <p>Leaks at the equipment pad itself, a loose union fitting, a cracked pump housing, or a failed O-ring, are typically the most straightforward to find and repair since everything is visible and accessible, unlike underground plumbing. A thorough visual inspection of the equipment pad is a reasonable first step before assuming a leak requires more invasive underground detection.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Why Pool Leaks Matter Beyond the Water Bill</h2>
-    <p>Beyond wasted water, a sustained pool leak can undermine surrounding decking or hardscape if the water is saturating soil beneath it, and in some cases can affect nearby structures if the leak is significant and long-running. Catching a leak early through routine bucket testing, especially during peak summer use when evaporation makes changes harder to notice, avoids this kind of secondary damage.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Pressure-Side vs. Suction-Side Leaks</h2>
-    <p>Leaks on the pressure side of the pump, the plumbing carrying water back to the pool after it's filtered, tend to show visible wet spots along the line's path since water is being pushed out under pressure. Suction-side leaks, on the plumbing pulling water from the pool into the equipment, often show no visible wet spot at all and instead pull in air, which shows up as bubbles at return jets or a pump that struggles to maintain prime. Identifying which type is present changes both the testing approach and the eventual repair.</p>
-  </div>
-</section>
-
-
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
+      </ul></div>
+      <div class="block block--price"><h2>Pool Leak Detection & Repair Pricing &amp; What Affects It</h2>
+    <p>A leak isolated to an accessible fitting or a skimmer is a relatively contained repair. A leak in a buried plumbing line running under decking or hardscape is a larger job, and the diagnostic step, confirming exactly which line and where along its run, is what keeps that repair from turning into unnecessary excavation across the whole yard.</p></div>
+      <div class="card-grid"><div class="block"><h2>Bucket Test vs. Professional Leak Detection</h2>
+    <p>The bucket test is a useful first step any homeowner can do, but it only confirms that a leak exists, not where it is. Professional detection combines dye testing at suspected fittings, pressure testing isolated sections of plumbing, and sometimes underwater camera inspection to find the specific location, which is what actually determines whether the fix is a simple fitting repair or a more involved plumbing line repair.</p></div><div class="block"><h2>Shell Leaks vs. Plumbing Leaks</h2>
+    <p>A leak in the pool's shell itself, a crack in plaster or a separated tile line, behaves differently from a leak in the underground plumbing connecting the pool to its equipment. Shell leaks often show a water level that stabilizes at a specific point (wherever the crack sits below the waterline), while plumbing leaks can drain the pool further depending on which line is affected and whether it's a pressure-side or suction-side leak.</p></div><div class="block"><h2>Equipment Pad Leaks Are Often the Easiest Fix</h2>
+    <p>Leaks at the equipment pad itself, a loose union fitting, a cracked pump housing, or a failed O-ring, are typically the most straightforward to find and repair since everything is visible and accessible, unlike underground plumbing. A thorough visual inspection of the equipment pad is a reasonable first step before assuming a leak requires more invasive underground detection.</p></div><div class="block"><h2>Why Pool Leaks Matter Beyond the Water Bill</h2>
+    <p>Beyond wasted water, a sustained pool leak can undermine surrounding decking or hardscape if the water is saturating soil beneath it, and in some cases can affect nearby structures if the leak is significant and long-running. Catching a leak early through routine bucket testing, especially during peak summer use when evaporation makes changes harder to notice, avoids this kind of secondary damage.</p></div><div class="block"><h2>Pressure-Side vs. Suction-Side Leaks</h2>
+    <p>Leaks on the pressure side of the pump, the plumbing carrying water back to the pool after it's filtered, tend to show visible wet spots along the line's path since water is being pushed out under pressure. Suction-side leaks, on the plumbing pulling water from the pool into the equipment, often show no visible wet spot at all and instead pull in air, which shows up as bubbles at return jets or a pump that struggles to maintain prime. Identifying which type is present changes both the testing approach and the eventual repair.</p></div><div class="block"><h2>Pool Leaks in North County Backyards</h2>
+    <p>Pools are common in North County backyards, including larger lots in <a href="/twin-oaks-valley/">Twin Oaks Valley</a> and communities around Lake San Marcos and Carlsbad's La Costa. Our work covers plumbing leaks and not shell or plaster repairs.</p>
+    <p>A bucket test confirms whether you have a real leak before any equipment arrives. After that we check the equipment pad, then the buried lines.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
         <div class="faq-q"><span>How do I know if my pool actually has a leak or if it's just evaporation?</span><span>+</span></div>
         <div class="faq-answer"><p>A bucket test is the standard first check: compare the water level drop in the pool against a bucket of pool water over 24 hours. If the pool drops meaningfully more than the bucket, that points to a real leak.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Can a pool leak be fixed without draining the whole pool?</span><span>+</span></div>
         <div class="faq-answer"><p>Often yes, especially for equipment pad leaks or leaks accessible without disturbing the shell, though the specific repair location determines whether any draining is needed.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Do you repair the pool shell itself, or just the plumbing?</span><span>+</span></div>
         <div class="faq-answer"><p>This covers plumbing-related leaks, supply and return lines, equipment pad fittings, and related plumbing components. Shell and plaster repairs are typically handled by a pool specialist rather than a plumber.</p></div>
-      </div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Can you check a spa or hot tub leak?</span><span>+</span></div>
+        <div class="faq-answer"><p>Describe the equipment and where you see water when you call. The plumber can tell you whether the issue falls within pool and spa plumbing or needs a different specialist.</p></div>
+      </div></div>
+    </div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
       
     </div>
+    <div class="side-links"><p class="side-h">Related Services</p><ul><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation & Replacement</a></li><li><a href="/services/">All plumbing services</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head"><h2>More San Marcos Plumbing Services</h2></div>
     <div class="grid-3">
@@ -447,13 +432,12 @@
     </div>
   </div>
 </section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>

@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -189,6 +211,30 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Coverage varies by policy and by whether the repipe is preventive or in response to actual damage, that's a conversation with your insurance provider, not something we can promise either way."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know it is time to repipe rather than repair again?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repeated leaks, discolored water, and low pressure throughout the house are common signs. The plumber can inspect and tell you whether the pipe is near the end of its life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My water is brown and the flow is weak. Could it be the pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Corroded galvanized pipe commonly causes both. A plumber can check, since similar symptoms can come from a water heater or a service line problem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should a repipe estimate include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It should list which pipes are replaced, the material, access cuts, patching responsibilities, permits and the timeline. Ask for these items in writing."
       }
     }
   ]
@@ -261,19 +307,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -285,138 +325,105 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section style="padding-top:2.5rem">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Repiping & Whole-Home Pipe Replacement
-    </nav>
-    <h1>Repiping & Whole-Home Pipe Replacement in San Marcos, CA</h1>
-    <p style="font-size:1.1rem;color:var(--text);margin-top:.75rem">Repiping replaces a home's aging or failing water lines rather than patching leak after leak in the same worn-out system. It's a bigger job than a single repair, but for a home with recurring leaks on old galvanized or copper, it's often the point where continuing to patch stops making financial sense.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0">
-      <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/repiping-whole-home-pipe-replacement-hero.webp" alt="Repiping & Whole-Home Pipe Replacement in San Marcos, CA" width="1200" height="900">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Repiping & Whole-Home Pipe Replacement</nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Repiping & Whole-Home Pipe Replacement in San Marcos, CA</h1>
+        <p class="lead">Repiping replaces a home's aging or failing water lines rather than patching leak after leak in the same worn-out system. It's a bigger job than a single repair, but for a home with recurring leaks on old galvanized or copper, it's often the point where continuing to patch stops making financial sense.</p>
+        
+        
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      </div>
+      <div class="hero-card">
+        <div class="lbl">Talk to a plumber now</div>
+        <div class="num">(760) 986-1999</div>
+        <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
+        <p class="hc-note">&#128222; Open 24/7 for emergencies.</p>
+      </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <img src="/assets/img/photos/repiping-whole-home-pipe-replacement-hero.webp" alt="Repiping & Whole-Home Pipe Replacement in San Marcos, CA" width="1200" height="900" loading="lazy" class="featured-img">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How We Diagnose the Problem</h2>
-    <p>The first question is always what's actually in the walls: galvanized steel, copper, or an older generation of plastic pipe, and how old it is relative to its typical service life. Homes in San Marcos's more established neighborhoods are more likely to still have original galvanized or copper runs, which corrode and develop pinhole leaks from the inside, often in more than one spot at a time, which is the real signal that a repipe, not another spot repair, is the right call.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>Signs You Need This Service</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>How We Diagnose the Problem</h2>
+    <p>The first question is always what's actually in the walls: galvanized steel, copper, or an older generation of plastic pipe, and how old it is relative to its typical service life. Homes in San Marcos's more established neighborhoods are more likely to still have original galvanized or copper runs, which corrode and develop pinhole leaks from the inside, often in more than one spot at a time, which is the real signal that a repipe, not another spot repair, is the right call.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Describe the repiping & whole-home pipe replacement problem and we book the earliest visit.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>A plumber finds the actual cause first, so the scope and price are clear before work begins.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options, a firm explanation, and the work done properly.</p></div></div></div>
+      <div class="block block--signs"><h2>Signs You Need This Service</h2>
       <ul class="checklist">
         <li>More than one pinhole leak on the same supply line within a year or two</li><li>Discolored or rust-tinted water, especially right after the water's been off</li><li>Noticeably low water pressure that's gradually worsened over months or years</li><li>Visible corrosion or greenish staining on exposed copper fittings</li><li>A home built before the 1980s that's never had its original supply lines replaced</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Repiping & Whole-Home Pipe Replacement Pricing &amp; What Affects It</h2>
-    <p>Whole-home repiping costs more up front than a single-point repair, but a home with repeated leaks on the same aging line is usually already paying for that cost in smaller pieces over time, repair calls, water damage from slow leaks, and the eventual repipe anyway. We walk through the real cost comparison between continuing to patch and repiping now, including how many access points are needed and whether drywall or slab work is involved.</p>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Whole-House vs. Partial Repipe</h2>
-    <p>Not every repipe has to be whole-house. If failures are concentrated in one section, say, the original galvanized line feeding one wing of an older home while the rest was already updated, a partial repipe can address the actual problem area without the cost or disruption of redoing lines that are still sound. That distinction gets made during the inspection, not assumed up front.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Minimizing Wall and Drywall Damage</h2>
-    <p>Modern repiping techniques generally route new PEX lines through existing wall cavities and attic or crawlspace access wherever possible, which limits how much drywall needs to be opened compared to older rigid-pipe methods. Where cuts are unavoidable, they're planned to be as few and as targeted as the actual routing allows, and patched as part of the job rather than left for the homeowner.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Why Galvanized Pipe Specifically Is a Repipe Trigger</h2>
-    <p>Galvanized steel pipe corrodes from the inside out, gradually narrowing the interior diameter with rust and mineral buildup, which is why a galvanized-plumbed home often shows a slow, years-long decline in water pressure even before an actual leak appears. By the time a leak does show up, the rest of the same-age line is usually close behind it.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>PEX as the Modern Standard</h2>
-    <p>Most repipes today use PEX tubing rather than rigid copper, because it flexes around framing without needing as many joints, resists the mineral scale buildup that's common with San Diego County's hard water, and holds up well over decades of typical residential use.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Timing a Repipe Around Other Home Projects</h2>
-    <p>If a kitchen or bathroom remodel is already planned, that's often the most efficient time to repipe the section of the house being opened up anyway, access is already available, and the two projects share some of the same demolition and patching work. Coordinating timing with a planned remodel can meaningfully reduce the total disruption compared to doing the repipe as a separate, later project.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Permits and Inspection</h2>
-    <p>Whole-home repiping in California typically requires a permit and inspection, since it involves the structural water supply system rather than a like-for-like fixture swap. That process is handled as part of the job rather than left for the homeowner to navigate separately.</p>
-  </div>
-</section>
-
-
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
+      </ul></div>
+      <div class="block block--price"><h2>Repiping & Whole-Home Pipe Replacement Pricing &amp; What Affects It</h2>
+    <p>Whole-home repiping costs more up front than a single-point repair, but a home with repeated leaks on the same aging line is usually already paying for that cost in smaller pieces over time, repair calls, water damage from slow leaks, and the eventual repipe anyway. We walk through the real cost comparison between continuing to patch and repiping now, including how many access points are needed and whether drywall or slab work is involved.</p></div>
+      <div class="card-grid"><div class="block"><h2>Whole-House vs. Partial Repipe</h2>
+    <p>Not every repipe has to be whole-house. If failures are concentrated in one section, say, the original galvanized line feeding one wing of an older home while the rest was already updated, a partial repipe can address the actual problem area without the cost or disruption of redoing lines that are still sound. That distinction gets made during the inspection, not assumed up front.</p></div><div class="block"><h2>Minimizing Wall and Drywall Damage</h2>
+    <p>Modern repiping techniques generally route new PEX lines through existing wall cavities and attic or crawlspace access wherever possible, which limits how much drywall needs to be opened compared to older rigid-pipe methods. Where cuts are unavoidable, they're planned to be as few and as targeted as the actual routing allows, and patched as part of the job rather than left for the homeowner.</p></div><div class="block"><h2>Why Galvanized Pipe Specifically Is a Repipe Trigger</h2>
+    <p>Galvanized steel pipe corrodes from the inside out, gradually narrowing the interior diameter with rust and mineral buildup, which is why a galvanized-plumbed home often shows a slow, years-long decline in water pressure even before an actual leak appears. By the time a leak does show up, the rest of the same-age line is usually close behind it.</p></div><div class="block"><h2>PEX as the Modern Standard</h2>
+    <p>Most repipes today use PEX tubing rather than rigid copper, because it flexes around framing without needing as many joints, resists the mineral scale buildup that's common with San Diego County's hard water, and holds up well over decades of typical residential use.</p></div><div class="block"><h2>Timing a Repipe Around Other Home Projects</h2>
+    <p>If a kitchen or bathroom remodel is already planned, that's often the most efficient time to repipe the section of the house being opened up anyway, access is already available, and the two projects share some of the same demolition and patching work. Coordinating timing with a planned remodel can meaningfully reduce the total disruption compared to doing the repipe as a separate, later project.</p></div><div class="block"><h2>Permits and Inspection</h2>
+    <p>Whole-home repiping in California typically requires a permit and inspection, since it involves the structural water supply system rather than a like-for-like fixture swap. That process is handled as part of the job rather than left for the homeowner to navigate separately.</p></div><div class="block"><h2>Which Neighborhoods Usually Need a Repipe</h2>
+    <p>Repipe estimates cluster in older housing. The 1960s and 1970s homes around <a href="/lake-san-marcos/">Lake San Marcos</a> are common candidates, as are the older central blocks of <a href="/escondido/">Escondido</a> and <a href="/vista/">Vista</a>. Original copper and galvanized lines in those areas are decades old.</p>
+    <p>Newer areas such as San Elijo Hills rarely need a full repipe. A leak there is more often a fitting at a manifold than a failing pipe. We confirm which case you have before we suggest replacing anything.</p></div></div>
+      <div class="card-grid"><div class="block"><h2>When Patching Stops Working</h2>
+    <p>A repipe makes sense when leaks keep appearing in different spots, water runs brown or rusty, or pressure is poor throughout the house. Each repair weakens trust in the rest of the pipe.</p>
+    <p>If you are not sure, <a href="/burst-pipe-repair/">burst pipe repair</a> handles individual breaks while the plumber assesses the whole system.</p></div><div class="block"><h2>Copper Pipe Repair or Replacement</h2>
+    <p>Copper pinholes and corroded joints are often repaired. When multiple pinholes appear, the pipe wall is likely thin throughout and replacement is worth discussing.</p></div><div class="block wide"><h2>What Drives the Cost of a Repipe</h2>
+    <p>Home size, bathroom count, wall and ceiling access, pipe material, and permits all affect the scope. A single-story home with accessible attic space is a different job than a two-story home with finished walls.</p>
+    <p>Ask for a written scope showing what is replaced, what is repaired afterward, and what is not included.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
         <div class="faq-q"><span>How long does a whole-home repipe take?</span><span>+</span></div>
         <div class="faq-answer"><p>It depends on the home's size and how accessible the existing lines are, but most residential repipes are completed over a few days rather than weeks. An exact timeline is part of the quote after the inspection.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Will I have water during the repipe?</span><span>+</span></div>
         <div class="faq-answer"><p>Water is typically shut off in sections as work progresses rather than for the entire duration, the crew will walk through exactly what to expect for your specific home before starting.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Is repiping covered by homeowners insurance?</span><span>+</span></div>
         <div class="faq-answer"><p>Coverage varies by policy and by whether the repipe is preventive or in response to actual damage, that's a conversation with your insurance provider, not something we can promise either way.</p></div>
-      </div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>How do I know it is time to repipe rather than repair again?</span><span>+</span></div>
+        <div class="faq-answer"><p>Repeated leaks, discolored water, and low pressure throughout the house are common signs. The plumber can inspect and tell you whether the pipe is near the end of its life.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>My water is brown and the flow is weak. Could it be the pipes?</span><span>+</span></div>
+        <div class="faq-answer"><p>Corroded galvanized pipe commonly causes both. A plumber can check, since similar symptoms can come from a water heater or a service line problem.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>What should a repipe estimate include?</span><span>+</span></div>
+        <div class="faq-answer"><p>It should list which pipes are replaced, the material, access cuts, patching responsibilities, permits and the timeline. Ask for these items in writing.</p></div>
+      </div></div>
+    </div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
       
     </div>
+    <div class="side-links"><p class="side-h">Related Services</p><ul><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation & Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/services/">All plumbing services</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head"><h2>More San Marcos Plumbing Services</h2></div>
     <div class="grid-3">
@@ -454,13 +461,12 @@
     </div>
   </div>
 </section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>

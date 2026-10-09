@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -189,6 +211,38 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, gas tankless units still require electricity for ignition control and the display, so they're not a workaround for power outages the way some homeowners assume."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a tankless flush cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The price depends on the unit, access, and how heavy the scale buildup is. Ask how the service is priced when you call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you service all tankless brands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tell the dispatcher the brand and model when you call so the technician can plan parts and tools. Not every unit is the same, so confirm before the visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the error code on my tankless unit mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Codes vary by manufacturer, and many point to scale, ignition, or flow problems. The code and model number together let the technician narrow the cause."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a flush worth it if my unit still heats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scale builds slowly, and performance loss is often gradual. A routine flush protects the heat exchanger, especially in areas with hard water."
       }
     }
   ]
@@ -261,19 +315,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -285,145 +333,112 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section style="padding-top:2.5rem">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Tankless Water Heater Service
-    </nav>
-    <h1>Tankless Water Heater Service in San Marcos, CA</h1>
-    <p style="font-size:1.1rem;color:var(--text);margin-top:.75rem">Tankless water heaters heat water on demand rather than storing a large reserve, which means endless hot water for the right household, but they have their own installation requirements and maintenance needs that differ meaningfully from a standard tank.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0">
-      <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/tankless-water-heater-service-hero.webp" alt="Tankless Water Heater Service in San Marcos, CA" width="1200" height="900">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Tankless Water Heater Service</nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Tankless Water Heater Service in San Marcos, CA</h1>
+        <p class="lead">Tankless water heaters heat water on demand rather than storing a large reserve, which means endless hot water for the right household, but they have their own installation requirements and maintenance needs that differ meaningfully from a standard tank.</p>
+        
+        
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      </div>
+      <div class="hero-card">
+        <div class="lbl">Talk to a plumber now</div>
+        <div class="num">(760) 986-1999</div>
+        <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
+        <p class="hc-note">&#128222; Open 24/7 for emergencies.</p>
+      </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <img src="/assets/img/photos/tankless-water-heater-service-hero.webp" alt="Tankless Water Heater Service in San Marcos, CA" width="1200" height="900" loading="lazy" class="featured-img">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How We Diagnose the Problem</h2>
-    <p>Tankless units fail differently than tank units: an error code on the unit's display is often the fastest diagnostic starting point, pointing toward issues like insufficient gas supply, venting restriction, or, most commonly in this region, scale buildup on the heat exchanger from hard water reducing flow and triggering a fault.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>Signs You Need This Service</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>How We Diagnose the Problem</h2>
+    <p>Tankless units fail differently than tank units: an error code on the unit's display is often the fastest diagnostic starting point, pointing toward issues like insufficient gas supply, venting restriction, or, most commonly in this region, scale buildup on the heat exchanger from hard water reducing flow and triggering a fault.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Describe the tankless water heater service problem and we book the earliest visit.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>A plumber finds the actual cause first, so the scope and price are clear before work begins.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options, a firm explanation, and the work done properly.</p></div></div></div>
+      <div class="block block--signs"><h2>Signs You Need This Service</h2>
       <ul class="checklist">
         <li>An error code displayed on the unit</li><li>Water temperature that fluctuates rather than staying consistent</li><li>Reduced hot water flow rate compared to when the unit was new</li><li>The unit hasn't been descaled in the last year</li><li>Longer-than-expected wait time for hot water to reach the tap</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Tankless Water Heater Service Pricing &amp; What Affects It</h2>
-    <p>Tankless repair costs vary by whether the issue is a part replacement (like an igniter or flow sensor) or descaling maintenance. New tankless installation typically costs more up front than a tank replacement due to venting and gas line sizing requirements, which gets factored into an honest cost comparison against staying with a tank system.</p>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Why Hard Water Hits Tankless Units Harder</h2>
-    <p>Tankless units heat water by passing it across a compact heat exchanger rather than storing it in a large tank, which means mineral scale from hard water concentrates on a smaller surface area and can restrict flow more noticeably than the same water would affect a tank's larger interior. This is why annual descaling is recommended more strongly for tankless units in San Diego County than it might be in a region with naturally softer water.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Sizing a Tankless Unit Correctly</h2>
-    <p>Tankless units are rated by flow rate (gallons per minute) rather than storage capacity, and sizing one incorrectly for the household's simultaneous hot water demand, running a shower and the dishwasher at once, for example, is one of the most common reasons a new tankless installation disappoints a homeowner who was expecting truly unlimited hot water.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Gas Line and Venting Requirements</h2>
-    <p>Gas-fired tankless units generally require a larger gas line than a comparable tank unit, along with specific venting materials rated for the higher exhaust temperatures involved. Confirming existing gas line capacity is one of the first steps before quoting a tankless installation, since undersized supply lines are a common obstacle discovered mid-installation if not checked up front.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Maintenance That Extends Tankless Lifespan</h2>
-    <p>Beyond descaling, a periodic filter check (many units have an inlet water filter that catches sediment) and confirming venting hasn't been obstructed are the main upkeep items that keep a tankless unit running at its rated efficiency for its full expected lifespan.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Recirculation Pumps and Tankless Units</h2>
-    <p>Some households pair a tankless unit with a recirculation pump to reduce the wait for hot water at distant fixtures, a common upgrade request in this area given both the appeal of on-demand hot water and San Diego County homeowners' general interest in water efficiency, though it requires compatible tankless models and proper setup to work as intended.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Indoor vs. Outdoor Tankless Installation</h2>
-    <p>Tankless units can be installed indoors with proper venting or, for gas models, sometimes mounted outdoors where local climate allows, which changes venting requirements substantially and can simplify installation in homes where indoor space or existing venting is limited, worth evaluating as an option during the initial installation consultation.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Electric Tankless Units for Point-of-Use Applications</h2>
-    <p>Smaller electric tankless units are sometimes installed at a single point of use, a distant bathroom or an outdoor sink, rather than as a whole-home solution, providing hot water exactly where it's needed without waiting for it to travel from a central unit. These have different electrical demands than a whole-home gas tankless system and are evaluated separately.</p>
-  </div>
-</section>
-
-
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
+      </ul></div>
+      <div class="block block--alert"><h2>Before the Service Visit</h2>
+    <p>A few details save time on the call and on site.</p>
+    <ul class="checklist"><li>Write down the brand, model and any error code shown on the display.</li><li>Note when the problem started and whether it affects all taps or just one.</li><li>Know the last time the unit was flushed, if you can recall.</li><li>Make sure the area around the heater is clear and reachable.</li><li>If the unit is leaking, close the water supply to it and shut off power or gas.</li></ul></div>
+      <div class="block block--price"><h2>Tankless Water Heater Service Pricing &amp; What Affects It</h2>
+    <p>Tankless repair costs vary by whether the issue is a part replacement (like an igniter or flow sensor) or descaling maintenance. New tankless installation typically costs more up front than a tank replacement due to venting and gas line sizing requirements, which gets factored into an honest cost comparison against staying with a tank system.</p></div>
+      <div class="card-grid"><div class="block"><h2>Why Hard Water Hits Tankless Units Harder</h2>
+    <p>Tankless units heat water by passing it across a compact heat exchanger rather than storing it in a large tank, which means mineral scale from hard water concentrates on a smaller surface area and can restrict flow more noticeably than the same water would affect a tank's larger interior. This is why annual descaling is recommended more strongly for tankless units in San Diego County than it might be in a region with naturally softer water.</p></div><div class="block"><h2>Sizing a Tankless Unit Correctly</h2>
+    <p>Tankless units are rated by flow rate (gallons per minute) rather than storage capacity, and sizing one incorrectly for the household's simultaneous hot water demand, running a shower and the dishwasher at once, for example, is one of the most common reasons a new tankless installation disappoints a homeowner who was expecting truly unlimited hot water.</p></div><div class="block"><h2>Gas Line and Venting Requirements</h2>
+    <p>Gas-fired tankless units generally require a larger gas line than a comparable tank unit, along with specific venting materials rated for the higher exhaust temperatures involved. Confirming existing gas line capacity is one of the first steps before quoting a tankless installation, since undersized supply lines are a common obstacle discovered mid-installation if not checked up front.</p></div><div class="block"><h2>Maintenance That Extends Tankless Lifespan</h2>
+    <p>Beyond descaling, a periodic filter check (many units have an inlet water filter that catches sediment) and confirming venting hasn't been obstructed are the main upkeep items that keep a tankless unit running at its rated efficiency for its full expected lifespan.</p></div><div class="block"><h2>Recirculation Pumps and Tankless Units</h2>
+    <p>Some households pair a tankless unit with a recirculation pump to reduce the wait for hot water at distant fixtures, a common upgrade request in this area given both the appeal of on-demand hot water and San Diego County homeowners' general interest in water efficiency, though it requires compatible tankless models and proper setup to work as intended.</p></div><div class="block"><h2>Indoor vs. Outdoor Tankless Installation</h2>
+    <p>Tankless units can be installed indoors with proper venting or, for gas models, sometimes mounted outdoors where local climate allows, which changes venting requirements substantially and can simplify installation in homes where indoor space or existing venting is limited, worth evaluating as an option during the initial installation consultation.</p></div><div class="block"><h2>Electric Tankless Units for Point-of-Use Applications</h2>
+    <p>Smaller electric tankless units are sometimes installed at a single point of use, a distant bathroom or an outdoor sink, rather than as a whole-home solution, providing hot water exactly where it's needed without waiting for it to travel from a central unit. These have different electrical demands than a whole-home gas tankless system and are evaluated separately.</p></div><div class="block"><h2>Tankless Calls in Newer Communities</h2>
+    <p>Tankless service calls concentrate in newer homes. San Elijo Hills and newer <a href="/carlsbad/">Carlsbad</a> communities such as Aviara and La Costa often have tankless units, and hard water is the usual reason they show error codes.</p>
+    <p>Annual descaling is the fix we recommend most. It restores flow and keeps the heat exchanger from failing early.</p></div></div>
+      <div class="card-grid"><div class="block"><h2>What a Flush and Descale Involves</h2>
+    <p>The service isolates the heater and circulates a cleaning solution through the heat exchanger, then rinses the unit. This removes the mineral scale that builds up in hard water and cuts efficiency.</p>
+    <p>Scale is a main reason units fail early, so the <a href="/water-softener-installation-repair/">water softener page</a> is worth a read if you have not treated your water.</p></div><div class="block"><h2>Error Codes, Cold Pockets and Inconsistent Temperature</h2>
+    <p>Error messages usually point to scale, a flame or ignition fault, or a venting problem. Fluctuating temperature can come from low flow, a dirty inlet filter, or a sizing issue.</p>
+    <p>Give the dispatcher the code so the technician arrives prepared.</p></div><div class="block wide"><h2>Service, Repair or Replace</h2>
+    <p>A flush solves scale. Worn parts such as sensors or igniters may be replaceable. When the heat exchanger itself fails, replacement is usually the practical choice, and the tank unit comparison on the <a href="/water-heater-repair/">water heater repair page</a> may help.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
         <div class="faq-q"><span>How often should a tankless water heater be descaled?</span><span>+</span></div>
         <div class="faq-answer"><p>Annually is a common recommendation in hard-water areas like San Diego County, though it can vary by household water usage and whether any pre-filtration is already in place.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Can I convert from a tank to tankless in my current water heater closet?</span><span>+</span></div>
         <div class="faq-answer"><p>Often yes, but it depends on available venting routes and gas line capacity, that's confirmed during an on-site assessment rather than assumed.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Do tankless units need electricity even with a gas model?</span><span>+</span></div>
         <div class="faq-answer"><p>Yes, gas tankless units still require electricity for ignition control and the display, so they're not a workaround for power outages the way some homeowners assume.</p></div>
-      </div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>How much does a tankless flush cost?</span><span>+</span></div>
+        <div class="faq-answer"><p>The price depends on the unit, access, and how heavy the scale buildup is. Ask how the service is priced when you call.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do you service all tankless brands?</span><span>+</span></div>
+        <div class="faq-answer"><p>Tell the dispatcher the brand and model when you call so the technician can plan parts and tools. Not every unit is the same, so confirm before the visit.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>What does the error code on my tankless unit mean?</span><span>+</span></div>
+        <div class="faq-answer"><p>Codes vary by manufacturer, and many point to scale, ignition, or flow problems. The code and model number together let the technician narrow the cause.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Is a flush worth it if my unit still heats?</span><span>+</span></div>
+        <div class="faq-answer"><p>Scale builds slowly, and performance loss is often gradual. A routine flush protects the heat exchanger, especially in areas with hard water.</p></div>
+      </div></div>
+    </div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
       
     </div>
+    <div class="side-links"><p class="side-h">Related Services</p><ul><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation & Replacement</a></li><li><a href="/services/">All plumbing services</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head"><h2>More San Marcos Plumbing Services</h2></div>
     <div class="grid-3">
@@ -461,13 +476,12 @@
     </div>
   </div>
 </section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>

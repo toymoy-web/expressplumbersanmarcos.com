@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -189,6 +211,38 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Often yes, especially for fixture-level or accessible-pipe repairs. Wall or slab access is only recommended when the leak location genuinely requires it, and that gets explained before any cutting happens."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the water pressure low across my whole house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common causes include a partly closed main valve, a failing pressure regulator, corroded pipe or a service line leak. A plumber tests pressure at an outdoor spigot to narrow it down."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I check first when pressure drops suddenly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check that the main shutoff and meter valve are fully open, and ask neighbors if they have the same problem. If only your home is affected, call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you install a new sink, tub or appliance connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, fixture and appliance connections are within the service. Describe the item and its location when you call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you give estimates for plumbing work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask about estimates when you call. For many jobs the plumber needs to see the problem first, because the scope depends on what is found."
       }
     }
   ]
@@ -261,19 +315,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -285,131 +333,106 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section style="padding-top:2.5rem">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; General Plumbing Repair
-    </nav>
-    <h1>General Plumbing Repair in San Marcos, CA</h1>
-    <p style="font-size:1.1rem;color:var(--text);margin-top:.75rem">From a dripping outdoor spigot to a leaking supply line under the kitchen sink, general plumbing repair covers the everyday issues that come up in San Marcos homes, most of them fixable in a single visit once the actual cause is found.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0">
-      <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/general-plumbing-repair-hero.webp" alt="General Plumbing Repair in San Marcos, CA" width="1200" height="900">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; General Plumbing Repair</nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>General Plumbing Repair in San Marcos, CA</h1>
+        <p class="lead">From a dripping outdoor spigot to a leaking supply line under the kitchen sink, general plumbing repair covers the everyday issues that come up in San Marcos homes, most of them fixable in a single visit once the actual cause is found.</p>
+        
+        
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      </div>
+      <div class="hero-card">
+        <div class="lbl">Talk to a plumber now</div>
+        <div class="num">(760) 986-1999</div>
+        <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
+        <p class="hc-note">&#128222; Open 24/7 for emergencies.</p>
+      </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <img src="/assets/img/photos/general-plumbing-repair-hero.webp" alt="General Plumbing Repair in San Marcos, CA" width="1200" height="900" loading="lazy" class="featured-img">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How We Diagnose the Problem</h2>
-    <p>San Marcos's housing stock mixes older homes on original copper or galvanized lines with newer construction on PEX, and the two fail differently. Before recommending a fix we confirm what's actually installed, where the water is really coming from (not just where it's showing up), and whether the fitting, the pipe itself, or a fixture is the real point of failure.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>Signs You Need This Service</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>How We Diagnose the Problem</h2>
+    <p>San Marcos's housing stock mixes older homes on original copper or galvanized lines with newer construction on PEX, and the two fail differently. Before recommending a fix we confirm what's actually installed, where the water is really coming from (not just where it's showing up), and whether the fitting, the pipe itself, or a fixture is the real point of failure.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Describe the general plumbing repair problem and we book the earliest visit.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>A plumber finds the actual cause first, so the scope and price are clear before work begins.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options, a firm explanation, and the work done properly.</p></div></div></div>
+      <div class="block block--signs"><h2>Signs You Need This Service</h2>
       <ul class="checklist">
         <li>A faucet, valve, or fixture that drips even when fully shut off</li><li>A running toilet that cycles on its own between uses</li><li>A damp cabinet floor under a sink with no obvious source</li><li>Water pressure that's dropped noticeably at one fixture but not others</li><li>A slow leak that's driven up the water bill without an obvious cause</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>General Plumbing Repair Pricing &amp; What Affects It</h2>
-    <p>Pricing depends on what's actually wrong, a fixture swap costs less than a supply-line repair behind a wall. You'll get a quote before any work starts, and if the job turns out to be bigger than expected once we're inside the wall, that gets discussed with you before continuing, not added to the invoice after the fact.</p>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Common Repairs We Handle</h2>
-    <p>General plumbing repair covers a wide range of fixture- and pipe-level issues: leaking supply lines under sinks, dripping faucets and shower valves, running or phantom-flushing toilets, loose or corroded shutoff valves, dripping outdoor hose bibs, small pinhole leaks in exposed copper, and fittings that have loosened over time. Most of these are resolved in a single visit once the exact point of failure is identified.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Older Homes vs. Newer Construction in San Marcos</h2>
-    <p>San Marcos has a real mix of housing eras, established neighborhoods with homes built decades ago on original copper or, in older cases, galvanized supply lines, alongside newer developments built on PEX. Galvanized pipe corrodes from the inside out and often needs a different repair approach than copper, while PEX fittings fail in their own characteristic ways. Knowing which material is actually in the wall before starting work avoids using the wrong fix for the wrong pipe.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>What to Do While You Wait for a Plumber</h2>
-    <p>If a fixture is actively leaking, shutting off the local stop valve under the sink or behind the toilet (rather than the main) usually contains the problem without cutting off water to the rest of the house. Keep a towel or shallow container under an active drip to protect cabinetry, and avoid using strong chemical drain cleaners before a technician arrives, since they can complicate a proper diagnosis of what's actually clogged or leaking.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>When a Repair Isn't Enough</h2>
-    <p>Some calls that start as a simple repair turn out to be a symptom of something larger, a valve that's failed because of sustained high water pressure, or a fixture that keeps leaking because the supply line behind it has multiple weak points from age. When that's the case, it gets explained plainly, along with the actual options, rather than treated as a routine one-line repair.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Hard Water and Everyday Fixture Wear</h2>
-    <p>San Diego County's hard water doesn't just affect water heaters, mineral scale builds up gradually inside faucet cartridges, shower valves, and shutoff valves too, which is part of why fixtures in this area sometimes need more frequent attention than the same fixtures would in a soft-water region. A valve that's stiff to turn or a faucet that's started dripping years before you'd expect often traces back to scale buildup rather than a defective part.</p>
-  </div>
-</section>
-
-
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
+      </ul></div>
+      <div class="block block--price"><h2>General Plumbing Repair Pricing &amp; What Affects It</h2>
+    <p>Pricing depends on what's actually wrong, a fixture swap costs less than a supply-line repair behind a wall. You'll get a quote before any work starts, and if the job turns out to be bigger than expected once we're inside the wall, that gets discussed with you before continuing, not added to the invoice after the fact.</p></div>
+      <div class="card-grid"><div class="block"><h2>Common Repairs We Handle</h2>
+    <p>General plumbing repair covers a wide range of fixture- and pipe-level issues: leaking supply lines under sinks, dripping faucets and shower valves, running or phantom-flushing toilets, loose or corroded shutoff valves, dripping outdoor hose bibs, small pinhole leaks in exposed copper, and fittings that have loosened over time. Most of these are resolved in a single visit once the exact point of failure is identified.</p></div><div class="block"><h2>Older Homes vs. Newer Construction in San Marcos</h2>
+    <p>San Marcos has a real mix of housing eras, established neighborhoods with homes built decades ago on original copper or, in older cases, galvanized supply lines, alongside newer developments built on PEX. Galvanized pipe corrodes from the inside out and often needs a different repair approach than copper, while PEX fittings fail in their own characteristic ways. Knowing which material is actually in the wall before starting work avoids using the wrong fix for the wrong pipe.</p></div><div class="block"><h2>What to Do While You Wait for a Plumber</h2>
+    <p>If a fixture is actively leaking, shutting off the local stop valve under the sink or behind the toilet (rather than the main) usually contains the problem without cutting off water to the rest of the house. Keep a towel or shallow container under an active drip to protect cabinetry, and avoid using strong chemical drain cleaners before a technician arrives, since they can complicate a proper diagnosis of what's actually clogged or leaking.</p></div><div class="block"><h2>When a Repair Isn't Enough</h2>
+    <p>Some calls that start as a simple repair turn out to be a symptom of something larger, a valve that's failed because of sustained high water pressure, or a fixture that keeps leaking because the supply line behind it has multiple weak points from age. When that's the case, it gets explained plainly, along with the actual options, rather than treated as a routine one-line repair.</p></div><div class="block"><h2>Hard Water and Everyday Fixture Wear</h2>
+    <p>San Diego County's hard water doesn't just affect water heaters, mineral scale builds up gradually inside faucet cartridges, shower valves, and shutoff valves too, which is part of why fixtures in this area sometimes need more frequent attention than the same fixtures would in a soft-water region. A valve that's stiff to turn or a faucet that's started dripping years before you'd expect often traces back to scale buildup rather than a defective part.</p></div><div class="block"><h2>Repairs From the Lakeside to the Foothills</h2>
+    <p>Everyday repairs reach us from every part of the city. We see 1970s homes around <a href="/lake-san-marcos/">Lake San Marcos</a> and PEX-plumbed townhomes near the San Elijo Hills Town Center. The era of the house tells us what to expect before we open a wall.</p>
+    <p>Calls also come in from <a href="/escondido/">Escondido</a> and Vista just across the city line. A short phone description of the fixture and the home's age is usually enough to send the right parts.</p></div></div>
+      <div class="card-grid"><div class="block"><h2>Low Water Pressure: One Fixture or the Whole House</h2>
+    <p>If one faucet is weak, the cause is usually a clogged aerator or valve. If every tap is weak, look at the main shutoff, the pressure regulator, or a service line problem. A sudden drop is different from a slow decline.</p>
+    <p>Older homes have more causes, as the article on <a href="/low-water-pressure-older-homes/">low water pressure in older homes</a> explains.</p></div><div class="block"><h2>Adding or Connecting New Fixtures and Appliances</h2>
+    <p>New sinks, tubs, appliances and outdoor connections need proper supply and drain connections. The plumber checks shutoffs, pipe size and drain slope so the new item works well.</p></div><div class="block wide"><h2>Remodels, Additions and Small Projects</h2>
+    <p>If you are planning a larger project, describe the scope when you call. The dispatcher can tell whether it fits or needs a different approach, and whether a visit is needed first.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
         <div class="faq-q"><span>What counts as "general plumbing repair" versus an emergency call?</span><span>+</span></div>
         <div class="faq-answer"><p>General repair covers non-urgent issues like a slow leak under a sink, a running toilet, or a dripping outdoor spigot. If water is actively flooding a room or you've had to shut off the main, that's treated as an emergency dispatch instead.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Do you repair both copper and PEX plumbing?</span><span>+</span></div>
         <div class="faq-answer"><p>Yes. Copper, galvanized, and PEX are all common in San Marcos depending on when the home was built, and the repair approach differs by material, we identify what's actually installed before quoting.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Can you fix a plumbing problem without tearing out drywall?</span><span>+</span></div>
         <div class="faq-answer"><p>Often yes, especially for fixture-level or accessible-pipe repairs. Wall or slab access is only recommended when the leak location genuinely requires it, and that gets explained before any cutting happens.</p></div>
-      </div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Why is the water pressure low across my whole house?</span><span>+</span></div>
+        <div class="faq-answer"><p>Common causes include a partly closed main valve, a failing pressure regulator, corroded pipe or a service line leak. A plumber tests pressure at an outdoor spigot to narrow it down.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>What should I check first when pressure drops suddenly?</span><span>+</span></div>
+        <div class="faq-answer"><p>Check that the main shutoff and meter valve are fully open, and ask neighbors if they have the same problem. If only your home is affected, call.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Can you install a new sink, tub or appliance connection?</span><span>+</span></div>
+        <div class="faq-answer"><p>Yes, fixture and appliance connections are within the service. Describe the item and its location when you call.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do you give estimates for plumbing work?</span><span>+</span></div>
+        <div class="faq-answer"><p>Ask about estimates when you call. For many jobs the plumber needs to see the problem first, because the scope depends on what is found.</p></div>
+      </div></div>
+    </div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
       
     </div>
+    <div class="side-links"><p class="side-h">Related Services</p><ul><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation & Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/services/">All plumbing services</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head"><h2>More San Marcos Plumbing Services</h2></div>
     <div class="grid-3">
@@ -447,13 +470,12 @@
     </div>
   </div>
 </section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>

@@ -1,1 +1,5 @@
-# No redirects needed. See build-standards.md Section on _redirects before adding any.
+# Retired neighborhood pages. Content merged into the Areas hub as mention-only coverage.
+/discovery-hills/ /areas/ 301
+/discovery-hills /areas/ 301
+/santa-fe-hills/ /areas/ 301
+/santa-fe-hills /areas/ 301

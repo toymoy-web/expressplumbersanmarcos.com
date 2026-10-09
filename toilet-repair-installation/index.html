@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -197,6 +219,30 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, removal and disposal of the old fixture is included as part of a standard replacement job."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon can you come for a toilet that will not flush?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Same-day service depends on the schedule. Tell the dispatcher whether the water is rising or only slow, since an overflowing toilet gets higher priority."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you replace the flush handle or the fill valve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. These are common repairs, and the plumber will check the other tank parts while there so the fix lasts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to fix a running toilet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cost depends on which part has failed and the toilet model. Ask for the diagnosis first, then compare parts replacement with a new toilet if the unit is old."
       }
     }
   ]
@@ -269,19 +315,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -293,150 +333,112 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section style="padding-top:2.5rem">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Toilet Repair & Installation
-    </nav>
-    <h1>Toilet Repair & Installation in San Marcos, CA</h1>
-    <p style="font-size:1.1rem;color:var(--text);margin-top:.75rem">A toilet that runs constantly, rocks slightly when you sit down, or leaks at the base are among the most common household plumbing calls, and while some of these are quick fixes, a few are signs of a bigger issue worth catching early.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0">
-      <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/toilet-repair-installation-hero.webp" alt="Toilet Repair & Installation in San Marcos, CA" width="1200" height="900">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Toilet Repair & Installation</nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Toilet Repair & Installation in San Marcos, CA</h1>
+        <p class="lead">A toilet that runs constantly, rocks slightly when you sit down, or leaks at the base are among the most common household plumbing calls, and while some of these are quick fixes, a few are signs of a bigger issue worth catching early.</p>
+        
+        
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      </div>
+      <div class="hero-card">
+        <div class="lbl">Talk to a plumber now</div>
+        <div class="num">(760) 986-1999</div>
+        <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
+        <p class="hc-note">&#128222; Open 24/7 for emergencies.</p>
+      </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <img src="/assets/img/photos/toilet-repair-installation-hero.webp" alt="Toilet Repair & Installation in San Marcos, CA" width="1200" height="900" loading="lazy" class="featured-img">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How We Diagnose the Problem</h2>
-    <p>A running toilet almost always traces to a worn flapper or fill valve, both inexpensive parts. A toilet that rocks or leaks at its base, however, often points to a failed wax ring seal or, in some cases, a cracked flange, the difference matters because one is a simple reseal and the other may involve subfloor damage from water that's been leaking underneath, unnoticed, for some time.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>Signs You Need This Service</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>How We Diagnose the Problem</h2>
+    <p>A running toilet almost always traces to a worn flapper or fill valve, both inexpensive parts. A toilet that rocks or leaks at its base, however, often points to a failed wax ring seal or, in some cases, a cracked flange, the difference matters because one is a simple reseal and the other may involve subfloor damage from water that's been leaking underneath, unnoticed, for some time.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Describe the toilet repair & installation problem and we book the earliest visit.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>A plumber finds the actual cause first, so the scope and price are clear before work begins.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options, a firm explanation, and the work done properly.</p></div></div></div>
+      <div class="block block--signs"><h2>Signs You Need This Service</h2>
       <ul class="checklist">
         <li>A toilet that runs intermittently or continuously without being flushed</li><li>Rocking slightly when you sit down or stand up</li><li>Water pooling at the base after flushing</li><li>A weak or incomplete flush that requires multiple attempts</li><li>Visible cracks in the tank or bowl</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Toilet Repair & Installation Pricing &amp; What Affects It</h2>
-    <p>Flapper and fill valve repairs are inexpensive. A reseal is more involved but still moderate in cost. Full toilet replacement, or any job that reveals subfloor water damage once the toilet is removed, is priced once the actual extent is visible, which is why an on-site look matters even for something that sounds simple over the phone.</p>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Why a Rocking Toilet Isn't Just Cosmetic</h2>
-    <p>A toilet that rocks even slightly means the wax ring seal underneath isn't making full, even contact with the drain flange, which allows small amounts of water to leak with every flush, often for months before it's noticeable, during which time the subfloor underneath can be absorbing water and beginning to soften or rot. Catching this early, before the subfloor is affected, is a meaningfully smaller repair.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Older Toilets and Water Efficiency</h2>
-    <p>Toilets manufactured before the mid-1990s often use significantly more water per flush than modern models, and replacing an older unit with a WaterSense-rated toilet can reduce water usage substantially, a relevant consideration in California given ongoing water conservation priorities in the region.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Toilet Installation in Older vs. Newer Bathrooms</h2>
-    <p>Installing a new toilet in an older bathroom sometimes reveals that the flange height or rough-in distance doesn't match modern standard toilets exactly, which needs to be addressed during installation rather than discovered after the fact with a toilet that doesn't sit correctly.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Choosing Between Two-Piece and One-Piece Toilets</h2>
-    <p>A two-piece toilet (separate tank and bowl) is generally less expensive and easier to service since individual parts can be replaced without swapping the whole unit, while a one-piece toilet has fewer seams to clean and a lower profile, a straightforward tradeoff worth discussing before replacement rather than defaulting to whichever the previous unit was.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Flushing Mechanism Differences</h2>
-    <p>Gravity-fed and pressure-assisted flush systems clear waste differently, with pressure-assisted toilets generally offering a more forceful flush at the cost of being somewhat louder, a relevant consideration for a bathroom near a bedroom versus one in a more isolated part of the house.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Wax Ring vs. Wax-Free Seals</h2>
-    <p>Traditional wax rings have been the standard toilet base seal for decades, but newer wax-free options using foam or rubber gaskets are also available and can be a better fit in certain situations, such as when a toilet needs to be removed and reset more than once during other bathroom work, worth discussing when a reseal is being done for reasons beyond a simple leak.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Comfort Height vs. Standard Height Toilets</h2>
-    <p>Comfort-height (or "ADA-height") toilets sit taller than standard models, which many people find more comfortable, particularly for accessibility needs, this is a straightforward preference to factor in during replacement since it doesn't affect the underlying rough-in plumbing.</p>
-  </div>
-</section>
-
-
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
+      </ul></div>
+      <div class="block block--alert"><h2>If the Toilet Is Overflowing</h2>
+    <p>Stopping the water takes a few seconds and saves your floor.</p>
+    <ul class="checklist"><li>Turn the shutoff valve behind the toilet clockwise until the water stops.</li><li>Lift the tank lid and set the flapper closed if water is still entering the bowl.</li><li>Avoid flushing again, even once.</li><li>Place towels around the base and keep children away.</li><li>If other fixtures are also backing up, stop using water in the house.</li></ul></div>
+      <div class="block block--price"><h2>Toilet Repair & Installation Pricing &amp; What Affects It</h2>
+    <p>Flapper and fill valve repairs are inexpensive. A reseal is more involved but still moderate in cost. Full toilet replacement, or any job that reveals subfloor water damage once the toilet is removed, is priced once the actual extent is visible, which is why an on-site look matters even for something that sounds simple over the phone.</p></div>
+      <div class="card-grid"><div class="block"><h2>Why a Rocking Toilet Isn't Just Cosmetic</h2>
+    <p>A toilet that rocks even slightly means the wax ring seal underneath isn't making full, even contact with the drain flange, which allows small amounts of water to leak with every flush, often for months before it's noticeable, during which time the subfloor underneath can be absorbing water and beginning to soften or rot. Catching this early, before the subfloor is affected, is a meaningfully smaller repair.</p></div><div class="block"><h2>Older Toilets and Water Efficiency</h2>
+    <p>Toilets manufactured before the mid-1990s often use significantly more water per flush than modern models, and replacing an older unit with a WaterSense-rated toilet can reduce water usage substantially, a relevant consideration in California given ongoing water conservation priorities in the region.</p></div><div class="block"><h2>Toilet Installation in Older vs. Newer Bathrooms</h2>
+    <p>Installing a new toilet in an older bathroom sometimes reveals that the flange height or rough-in distance doesn't match modern standard toilets exactly, which needs to be addressed during installation rather than discovered after the fact with a toilet that doesn't sit correctly.</p></div><div class="block"><h2>Choosing Between Two-Piece and One-Piece Toilets</h2>
+    <p>A two-piece toilet (separate tank and bowl) is generally less expensive and easier to service since individual parts can be replaced without swapping the whole unit, while a one-piece toilet has fewer seams to clean and a lower profile, a straightforward tradeoff worth discussing before replacement rather than defaulting to whichever the previous unit was.</p></div><div class="block"><h2>Flushing Mechanism Differences</h2>
+    <p>Gravity-fed and pressure-assisted flush systems clear waste differently, with pressure-assisted toilets generally offering a more forceful flush at the cost of being somewhat louder, a relevant consideration for a bathroom near a bedroom versus one in a more isolated part of the house.</p></div><div class="block"><h2>Wax Ring vs. Wax-Free Seals</h2>
+    <p>Traditional wax rings have been the standard toilet base seal for decades, but newer wax-free options using foam or rubber gaskets are also available and can be a better fit in certain situations, such as when a toilet needs to be removed and reset more than once during other bathroom work, worth discussing when a reseal is being done for reasons beyond a simple leak.</p></div><div class="block"><h2>Comfort Height vs. Standard Height Toilets</h2>
+    <p>Comfort-height (or "ADA-height") toilets sit taller than standard models, which many people find more comfortable, particularly for accessibility needs, this is a straightforward preference to factor in during replacement since it doesn't affect the underlying rough-in plumbing.</p></div><div class="block"><h2>Toilet Calls From Older and Newer Homes</h2>
+    <p>Most toilet calls involve wax rings and fill valves. In 1970s homes near <a href="/lake-san-marcos/">Lake San Marcos</a>, we sometimes find rough-in dimensions that do not match modern bowls. We measure before we order a replacement.</p>
+    <p>Student rentals near Cal State San Marcos see the same running-toilet complaints from worn flappers. Those are quick, inexpensive fixes.</p></div></div>
+      <div class="card-grid"><div class="block"><h2>Running, Ghost Flushing or a Weak Flush</h2>
+    <p>A toilet that runs on or refills by itself usually has a worn flapper, a failing fill valve, or a misadjusted chain. A weak flush can come from clogged rim jets or low water level in the tank.</p>
+    <p>Left alone, a running toilet quietly wastes water, which shows up on the bill. The <a href="/leak-detection/">leak detection page</a> explains how to tell this apart from a line leak.</p></div><div class="block"><h2>Leaks at the Base, Tank or Supply Line</h2>
+    <p>Water at the base usually means a failed wax ring or seal. A leak at the tank bolts or the supply connection is a different part. Each is a straightforward repair when caught early.</p></div><div class="block"><h2>Broken Handles, Fill Valves and Flush Mechanisms</h2>
+    <p>A snapped handle or a lever that no longer lifts the flapper is a quick fix in most toilets. One-piece models can have different parts, so mention the model if you know it.</p></div><div class="block wide"><h2>Won't Flush and the Water Is Rising</h2>
+    <p>If the bowl fills but does not drain, it is likely a clog, and a plunger or a closet auger may be the first step. When it keeps happening, the problem may be in the drain line, and <a href="/drain-cleaning-unclogging/">drain cleaning</a> addresses that.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
         <div class="faq-q"><span>My toilet runs every so often even when not in use, is that normal?</span><span>+</span></div>
         <div class="faq-answer"><p>No, intermittent running usually means the flapper isn't sealing fully or the fill valve is slightly overfilling the tank, both inexpensive fixes worth addressing since they waste water continuously.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Can a leaking toilet base cause floor damage?</span><span>+</span></div>
         <div class="faq-answer"><p>Yes, if it's been leaking for a while, water seeping under the base can soften subfloor material over time, which is why addressing a rocking or leaking toilet promptly matters.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>How long does toilet replacement take?</span><span>+</span></div>
         <div class="faq-answer"><p>A standard replacement is typically completed in under two hours, assuming no subfloor damage or rough-in mismatch is discovered during the removal process.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>Do you dispose of the old toilet after replacement?</span><span>+</span></div>
         <div class="faq-answer"><p>Yes, removal and disposal of the old fixture is included as part of a standard replacement job.</p></div>
-      </div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>How soon can you come for a toilet that will not flush?</span><span>+</span></div>
+        <div class="faq-answer"><p>Same-day service depends on the schedule. Tell the dispatcher whether the water is rising or only slow, since an overflowing toilet gets higher priority.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Can you replace the flush handle or the fill valve?</span><span>+</span></div>
+        <div class="faq-answer"><p>Yes. These are common repairs, and the plumber will check the other tank parts while there so the fix lasts.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>How much does it cost to fix a running toilet?</span><span>+</span></div>
+        <div class="faq-answer"><p>Cost depends on which part has failed and the toilet model. Ask for the diagnosis first, then compare parts replacement with a new toilet if the unit is old.</p></div>
+      </div></div>
+    </div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
       
     </div>
+    <div class="side-links"><p class="side-h">Related Services</p><ul><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation & Replacement</a></li><li><a href="/services/">All plumbing services</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head"><h2>More San Marcos Plumbing Services</h2></div>
     <div class="grid-3">
@@ -474,13 +476,12 @@
     </div>
   </div>
 </section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>

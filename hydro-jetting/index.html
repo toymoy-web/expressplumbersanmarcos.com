@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -189,6 +211,38 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It depends on usage, a kitchen line with heavy grease exposure benefits from more frequent jetting than a typical bathroom drain line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does hydro jetting cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on line length, access, and how heavy the buildup is. Ask what the price includes before work starts, since a camera inspection may be separate or bundled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can hydro jetting be done the same day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes, depending on the schedule and whether the line is safe to jet. Describe the symptoms when you call and ask for the earliest opening."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a camera inspection first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a sound step when the line is old, the clog is recurring, or you are unsure about pipe condition. The camera tells the plumber whether jetting is safe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can jetting clear the line all the way to the street?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can reach far along a line when a cleanout gives access. How far depends on the layout, the pipe condition, and where the obstruction sits."
       }
     }
   ]
@@ -261,19 +315,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -285,152 +333,112 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section style="padding-top:2.5rem">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Hydro Jetting
-    </nav>
-    <h1>Hydro Jetting in San Marcos, CA</h1>
-    <p style="font-size:1.1rem;color:var(--text);margin-top:.75rem">Hydro jetting uses high-pressure water to scour the full interior diameter of a drain or sewer line, clearing buildup that a standard drain snake only punches a path through rather than actually removing, the difference between a temporary fix and a genuinely clean line.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0">
-      <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/hydro-jetting-hero.webp" alt="Hydro Jetting in San Marcos, CA" width="1200" height="900">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/services/">Services</a> &rsaquo; Hydro Jetting</nav>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Hydro Jetting in San Marcos, CA</h1>
+        <p class="lead">Hydro jetting uses high-pressure water to scour the full interior diameter of a drain or sewer line, clearing buildup that a standard drain snake only punches a path through rather than actually removing, the difference between a temporary fix and a genuinely clean line.</p>
+        
+        
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      </div>
+      <div class="hero-card">
+        <div class="lbl">Talk to a plumber now</div>
+        <div class="num">(760) 986-1999</div>
+        <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
+        <p class="hc-note">&#128222; Open 24/7 for emergencies.</p>
+      </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <img src="/assets/img/photos/hydro-jetting-hero.webp" alt="Hydro Jetting in San Marcos, CA" width="1200" height="900" loading="lazy" class="featured-img">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How We Diagnose the Problem</h2>
-    <p>Hydro jetting is typically recommended after a camera inspection confirms the line's condition and rules out structural issues like a collapsed section or significant root intrusion, since jetting is meant for clearing buildup rather than repairing physical pipe damage. It's a common follow-up for lines with recurring grease buildup or long-standing sediment accumulation that snaking hasn't fully resolved.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>Signs You Need This Service</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>How We Diagnose the Problem</h2>
+    <p>Hydro jetting is typically recommended after a camera inspection confirms the line's condition and rules out structural issues like a collapsed section or significant root intrusion, since jetting is meant for clearing buildup rather than repairing physical pipe damage. It's a common follow-up for lines with recurring grease buildup or long-standing sediment accumulation that snaking hasn't fully resolved.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Describe the hydro jetting problem and we book the earliest visit.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>A plumber finds the actual cause first, so the scope and price are clear before work begins.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options, a firm explanation, and the work done properly.</p></div></div></div>
+      <div class="block block--signs"><h2>Signs You Need This Service</h2>
       <ul class="checklist">
         <li>A drain that keeps clogging in the same spot despite repeated snaking</li><li>Significant grease buildup in kitchen line drains</li><li>A main sewer line with years of accumulated buildup and no recent thorough cleaning</li><li>Multiple slow drains throughout the house suggesting a main line issue</li><li>Preparing an older line for camera inspection by first clearing accumulated debris</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Hydro Jetting Pricing &amp; What Affects It</h2>
-    <p>Cost depends on line length and how much buildup is being cleared, and is usually comparable to or moderately more than standard drain snaking for the same line, a reasonable trade-off given how much more thoroughly it clears the pipe.</p>
-  </div>
-</section>
-
-
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Why Jetting Clears More Than Snaking</h2>
-    <p>A drain snake physically breaks through or drags out a clog, leaving the rest of the pipe's interior surface largely untouched. Hydro jetting's high-pressure water sprays in all directions from the nozzle head as it moves through the line, scouring grease, scale, and residue off the entire interior wall rather than just clearing a path through the middle, which is why jetted lines tend to stay clear longer than snaked ones.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Not a Fix for Structural Pipe Damage</h2>
-    <p>Jetting clears buildup, but it won't repair a cracked, collapsed, or misaligned pipe section, which is why a camera inspection beforehand matters, to confirm jetting is actually the appropriate solution rather than masking a structural problem that needs a different repair.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Kitchen Line Maintenance for Restaurants and Households</h2>
-    <p>Lines carrying significant grease volume, whether from a restaurant's kitchen or a household that does a lot of cooking, benefit from periodic jetting as preventive maintenance rather than waiting for a full backup to force the issue, grease accumulates gradually and jetting resets the line to a genuinely clean state.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Jetting as Part of a Sewer Line Assessment</h2>
-    <p>Because jetting clears the line to bare pipe, it's often paired with a follow-up camera inspection to get an accurate read on the actual condition of the pipe walls, buildup can obscure smaller cracks or root intrusion points that only become visible once the line is genuinely clean.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Equipment and Pressure Levels</h2>
-    <p>Hydro jetting equipment operates at pressures specifically calibrated to the line's material and condition, a residential line and an older, more fragile pipe don't get the same treatment as a robust commercial line, which is part of why the camera inspection beforehand matters in choosing the appropriate pressure and nozzle type for the specific job.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>How Long Jetted Lines Stay Clear</h2>
-    <p>A properly jetted line typically stays clear noticeably longer than a snaked one, since the full interior surface has been scoured rather than just a path punched through the clog, though ongoing habits like avoiding grease disposal down kitchen drains still matter for how long that clean state actually lasts.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Jetting for Preventive Maintenance</h2>
-    <p>Beyond clearing an active clog, some properties schedule jetting on a periodic basis as preventive maintenance, particularly older homes with clay or cast-iron lines prone to gradual buildup, or restaurants with heavy grease exposure, where waiting for an actual backup means dealing with a much bigger emergency than a scheduled cleaning would have been.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Access Points for Jetting Equipment</h2>
-    <p>Jetting requires an access point to feed the hose into the line, typically an existing cleanout, though on older properties without one, a cleanout may need to be added first, which is confirmed during the initial assessment rather than assumed to already exist.</p>
-  </div>
-</section>
-
-
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
+      </ul></div>
+      <div class="block block--price"><h2>Hydro Jetting Pricing &amp; What Affects It</h2>
+    <p>Cost depends on line length and how much buildup is being cleared, and is usually comparable to or moderately more than standard drain snaking for the same line, a reasonable trade-off given how much more thoroughly it clears the pipe.</p></div>
+      <div class="card-grid"><div class="block"><h2>Why Jetting Clears More Than Snaking</h2>
+    <p>A drain snake physically breaks through or drags out a clog, leaving the rest of the pipe's interior surface largely untouched. Hydro jetting's high-pressure water sprays in all directions from the nozzle head as it moves through the line, scouring grease, scale, and residue off the entire interior wall rather than just clearing a path through the middle, which is why jetted lines tend to stay clear longer than snaked ones.</p></div><div class="block"><h2>Not a Fix for Structural Pipe Damage</h2>
+    <p>Jetting clears buildup, but it won't repair a cracked, collapsed, or misaligned pipe section, which is why a camera inspection beforehand matters, to confirm jetting is actually the appropriate solution rather than masking a structural problem that needs a different repair.</p></div><div class="block"><h2>Kitchen Line Maintenance for Restaurants and Households</h2>
+    <p>Lines carrying significant grease volume, whether from a restaurant's kitchen or a household that does a lot of cooking, benefit from periodic jetting as preventive maintenance rather than waiting for a full backup to force the issue, grease accumulates gradually and jetting resets the line to a genuinely clean state.</p></div><div class="block"><h2>Jetting as Part of a Sewer Line Assessment</h2>
+    <p>Because jetting clears the line to bare pipe, it's often paired with a follow-up camera inspection to get an accurate read on the actual condition of the pipe walls, buildup can obscure smaller cracks or root intrusion points that only become visible once the line is genuinely clean.</p></div><div class="block"><h2>Equipment and Pressure Levels</h2>
+    <p>Hydro jetting equipment operates at pressures specifically calibrated to the line's material and condition, a residential line and an older, more fragile pipe don't get the same treatment as a robust commercial line, which is part of why the camera inspection beforehand matters in choosing the appropriate pressure and nozzle type for the specific job.</p></div><div class="block"><h2>How Long Jetted Lines Stay Clear</h2>
+    <p>A properly jetted line typically stays clear noticeably longer than a snaked one, since the full interior surface has been scoured rather than just a path punched through the clog, though ongoing habits like avoiding grease disposal down kitchen drains still matter for how long that clean state actually lasts.</p></div><div class="block"><h2>Jetting for Preventive Maintenance</h2>
+    <p>Beyond clearing an active clog, some properties schedule jetting on a periodic basis as preventive maintenance, particularly older homes with clay or cast-iron lines prone to gradual buildup, or restaurants with heavy grease exposure, where waiting for an actual backup means dealing with a much bigger emergency than a scheduled cleaning would have been.</p></div><div class="block"><h2>Access Points for Jetting Equipment</h2>
+    <p>Jetting requires an access point to feed the hose into the line, typically an existing cleanout, though on older properties without one, a cleanout may need to be added first, which is confirmed during the initial assessment rather than assumed to already exist.</p></div><div class="block"><h2>Where Hydro Jetting Pays Off</h2>
+    <p>Hydro jetting suits long, grease-heavy lines. Restaurants in <a href="/vista/">Vista Village</a> and <a href="/escondido/">downtown Escondido</a> are frequent candidates. Older home sewer laterals with years of buildup are the other group.</p>
+    <p>A camera check comes first, so we know the pipe can take the pressure. Jetting clears buildup but does not repair a cracked pipe.</p></div></div>
+      <div class="card-grid"><div class="block"><h2>Jetting or Snaking: Which One Fits My Clog</h2>
+    <p>A single obstruction in one branch is often a job for a cable. Grease coating, mineral scale, roots in a main line, or clogs that keep returning point toward high-pressure water that scrubs the entire pipe wall.</p>
+    <p>If you are still deciding, start with <a href="/drain-cleaning-unclogging/">drain cleaning</a> and let the plumber recommend the right tool after looking.</p></div><div class="block"><h2>Camera First, Then the Jet</h2>
+    <p>A camera look before jetting shows pipe condition and the type of blockage. That matters because heavy pressure is not appropriate for cracked or collapsed pipe.</p>
+    <p>If the camera shows damage, the better path may be <a href="/sewer-line-repair/">sewer line repair</a> before any cleaning.</p></div><div class="block"><h2>Why the Quote Varies</h2>
+    <p>The price follows the length of line, access through a cleanout, the severity of the buildup, and whether a camera inspection is included. Two houses with the same symptom can have very different jobs.</p>
+    <p>Ask what the quote covers and whether follow-up cleaning is part of it.</p></div><div class="block"><h2>Getting Ready for the Visit</h2>
+    <p>Locate the cleanout and clear a path to it. Stop running water in the house once the drain is backing up. Tell the dispatcher if the line serves a kitchen, a restaurant or an entire building.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
         <div class="faq-q"><span>Is hydro jetting safe for older pipes?</span><span>+</span></div>
         <div class="faq-answer"><p>It depends on the pipe's current condition, a camera inspection beforehand confirms there's no existing damage that jetting's water pressure could worsen.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>How is hydro jetting different from a standard drain snake?</span><span>+</span></div>
         <div class="faq-answer"><p>Snaking clears a path through a clog; jetting scours the entire interior diameter of the pipe with high-pressure water, removing buildup along the full wall rather than just punching through the blockage.</p></div>
-      </div>
-      
-      <div class="faq-item">
+      </div><div class="faq-item">
         <div class="faq-q"><span>How often should a line be hydro jetted?</span><span>+</span></div>
         <div class="faq-answer"><p>It depends on usage, a kitchen line with heavy grease exposure benefits from more frequent jetting than a typical bathroom drain line.</p></div>
-      </div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>How much does hydro jetting cost?</span><span>+</span></div>
+        <div class="faq-answer"><p>It depends on line length, access, and how heavy the buildup is. Ask what the price includes before work starts, since a camera inspection may be separate or bundled.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Can hydro jetting be done the same day?</span><span>+</span></div>
+        <div class="faq-answer"><p>Sometimes, depending on the schedule and whether the line is safe to jet. Describe the symptoms when you call and ask for the earliest opening.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do I need a camera inspection first?</span><span>+</span></div>
+        <div class="faq-answer"><p>It is a sound step when the line is old, the clog is recurring, or you are unsure about pipe condition. The camera tells the plumber whether jetting is safe.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Can jetting clear the line all the way to the street?</span><span>+</span></div>
+        <div class="faq-answer"><p>It can reach far along a line when a cleanout gives access. How far depends on the layout, the pipe condition, and where the obstruction sits.</p></div>
+      </div></div>
+    </div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
       
     </div>
+    <div class="side-links"><p class="side-h">Related Services</p><ul><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation & Replacement</a></li><li><a href="/services/">All plumbing services</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head"><h2>More San Marcos Plumbing Services</h2></div>
     <div class="grid-3">
@@ -468,13 +476,12 @@
     </div>
   </div>
 </section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>

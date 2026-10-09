@@ -38,10 +38,28 @@
     "postalCode": "92069",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "San Marcos, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "San Marcos, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Escondido, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Vista, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Carlsbad, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Oceanside, CA"
+    }
+  ],
   "priceRange": "$$",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -158,7 +176,11 @@
     "Hillside drainage",
     "Rain and storm preparedness",
     "Freeze protection plumbing",
-    "Irrigation backflow"
+    "Irrigation backflow",
+    "Escondido California plumbing",
+    "Vista California plumbing",
+    "Carlsbad California plumbing",
+    "Oceanside California plumbing"
   ]
 }
 </script>
@@ -266,19 +288,13 @@
       <a href="/" class="logo" aria-label="San Marcos Express Plumbing home"><img src="/assets/img/logo.png" alt="San Marcos Express Plumbing" width="886" height="310"></a>
       <ul class="nav-links" role="list">
         <li><a href="/">Home</a></li>
-        <li class="has-dropdown">
-          <a href="/services/" aria-haspopup="true">Services &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-            <li><a href="/services/">All Services</a></li>
-          </ul>
+        <li class="has-dropdown has-mega">
+          <a href="/services/" aria-haspopup="true" aria-expanded="false">Services <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown mega" role="list"><li class="dd-col"><span class="dd-title">Repairs &amp; Fixtures</span><ul role="list"><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li></ul></li><li class="dd-col"><span class="dd-title">Leaks, Pipes &amp; Drains</span><ul role="list"><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li></ul></li><li class="dd-col"><span class="dd-title">Water Heaters &amp; Water Care</span><ul role="list"><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li></ul></li><li class="dd-all"><a href="/services/">View all 25 plumbing services &rarr;</a></li></ul>
         </li>
         <li class="has-dropdown">
-          <a href="/areas/" aria-haspopup="true">Areas &#9662;</a>
-          <ul class="dropdown" role="list">
-            <li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/discovery-hills/">Discovery Hills</a></li><li><a href="/santa-fe-hills/">Santa Fe Hills</a></li>
-            <li><a href="/areas/">All Areas</a></li>
-          </ul>
+          <a href="/areas/" aria-haspopup="true" aria-expanded="false">Areas <svg class="caret" viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="dropdown" role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li class="dd-all"><a href="/areas/">All service areas &rarr;</a></li></ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact/">Contact</a></li>
@@ -290,105 +306,97 @@
 </header>
 <div class="mob-drawer" id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
   <div class="drawer-inner">
-    <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button>
-    <ul role="list">
+    <div class="drawer-head"><span class="drawer-title">Menu</span><button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&#10005;</button></div>
+    <ul role="list" class="drawer-list">
       <li><a href="/">Home</a></li>
-      <li style="font-weight:800;color:var(--text);font-size:12px;text-transform:uppercase;padding-top:1rem">Top Services</li>
-      <li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping & Whole-Home Pipe Replacement</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning & Unclogging</a></li>
-      <li><a href="/services/">All Services</a></li>
-      <li><a href="/areas/">Service Areas</a></li>
+      <li><details class="dr-acc"><summary>Services</summary><ul role="list"><li class="dr-sub">Repairs &amp; Fixtures</li><li><a href="/general-plumbing-repair/">General Plumbing Repair</a></li><li><a href="/faucet-sink-repair/">Faucet &amp; Sink Repair</a></li><li><a href="/toilet-repair-installation/">Toilet Repair &amp; Installation</a></li><li><a href="/garbage-disposal-repair-installation/">Garbage Disposal Repair &amp; Installation</a></li><li><a href="/shower-bathtub-installation/">Shower &amp; Bathtub Installation</a></li><li><a href="/gas-line-installation-repair/">Gas Line Installation &amp; Repair</a></li><li><a href="/commercial-plumbing/">Commercial Plumbing</a></li><li><a href="/backflow-testing-prevention/">Backflow Testing &amp; Prevention</a></li><li class="dr-sub">Leaks, Pipes &amp; Drains</li><li><a href="/leak-detection/">Leak Detection</a></li><li><a href="/slab-leak-detection-repair/">Slab Leak Detection &amp; Repair</a></li><li><a href="/pool-leak-detection-repair/">Pool Leak Detection &amp; Repair</a></li><li><a href="/burst-pipe-repair/">Burst Pipe Repair</a></li><li><a href="/water-line-repair-replacement/">Water Line Repair &amp; Replacement</a></li><li><a href="/repiping-whole-home-pipe-replacement/">Repiping &amp; Whole-Home Pipe Replacement</a></li><li><a href="/sewer-line-repair/">Sewer Line Repair</a></li><li><a href="/drain-cleaning-unclogging/">Drain Cleaning &amp; Unclogging</a></li><li><a href="/hydro-jetting/">Hydro Jetting</a></li><li class="dr-sub">Water Heaters &amp; Water Care</li><li><a href="/water-heater-repair/">Water Heater Repair</a></li><li><a href="/water-heater-installation-replacement/">Water Heater Installation &amp; Replacement</a></li><li><a href="/tankless-water-heater-service/">Tankless Water Heater Service</a></li><li><a href="/water-filtration-installation/">Water Filtration Installation</a></li><li><a href="/water-softener-installation-repair/">Water Softener Installation &amp; Repair</a></li><li><a href="/sump-pump-installation-repair/">Sump Pump Installation &amp; Repair</a></li><li><a href="/water-damage-restoration/">Water Damage Restoration</a></li><li><a href="/water-mitigation/">Water Mitigation</a></li><li><a href="/services/" class="dr-all">All Services &rarr;</a></li></ul></details></li>
+      <li><details class="dr-acc"><summary>Service Areas</summary><ul role="list"><li><a href="/san-elijo-hills/">San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Lake San Marcos</a></li><li><a href="/twin-oaks-valley/">Twin Oaks Valley</a></li><li><a href="/escondido/">Escondido</a></li><li><a href="/vista/">Vista</a></li><li><a href="/carlsbad/">Carlsbad</a></li><li><a href="/oceanside/">Oceanside</a></li><li><a href="/areas/" class="dr-all">All Areas &rarr;</a></li></ul></details></li>
       <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
-      <li><a href="tel:+17609861999" class="drawer-cta">Call (760) 986-1999</a></li>
     </ul>
+    <a href="tel:+17609861999" class="drawer-call">Call (760) 986-1999</a>
   </div>
 </div>
 <div class="mob-overlay" id="mob-overlay" aria-hidden="true"></div>
 
 <main id="main-content">
-
-<section class="hero">
-  <div class="container">
-    <nav aria-label="Breadcrumb" style="font-size:13.5px;color:var(--text);margin-bottom:1rem">
-      <a href="/">Home</a> &rsaquo; <a href="/areas/">Service Areas</a> &rsaquo; Twin Oaks Valley
-    </nav>
+<section class="hero hero--bg">
+  <img class="hero-bg-img" fetchpriority="high" src="/assets/img/photos/twin-oaks-valley-hero.webp" alt="Twin Oaks Valley in San Marcos, CA" width="1600" height="900" loading="eager" fetchpriority="high">
+  <div class="container hero-inner">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/areas/">Service Areas</a> &rsaquo; Twin Oaks Valley</nav>
     <div class="hero-grid">
-      <div>
-        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
+      <div class="hero-copy">
         <h1>Emergency Plumber Twin Oaks Valley, CA Near San Marcos</h1>
-        <p class="prose" style="font-size:1.1rem;color:var(--text);margin-top:.75rem">Ranch-style estate, equestrian property, or a home in Twin Oaks Valley Ranch near the golf course, we dispatch throughout Twin Oaks Valley day and night.</p>
+        <p class="lead">Ranch-style estate, equestrian property, or a home in Twin Oaks Valley Ranch near the golf course, we dispatch throughout Twin Oaks Valley day and night.</p>
         <div class="zips">
           <span class="zip-chip">92069</span><span class="zip-chip">92078</span>
         </div>
-        <p style="color:var(--text);font-size:14px;margin-top:.5rem">Dispatch runs around the clock: day, night, weekends, and holidays.</p>
-        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem">
-          <a class="btn" href="tel:+17609861999">Call (760) 986-1999</a>
-        </div>
+        <p class="hero-note">Dispatch runs around the clock: day, night, weekends, and holidays.</p>
+        <div class="hero-actions"><a class="btn" href="tel:+17609861999">Call (760) 986-1999</a></div>
+        <span class="badge-alt">&#128222; 24/7 Emergency Line Open</span>
       </div>
       <div class="hero-card">
         <div class="lbl">Talk to a plumber now</div>
         <div class="num">(760) 986-1999</div>
         <a class="btn primary" style="width:100%;justify-content:center" href="tel:+17609861999">Call Now</a>
-        <p style="margin-top:.85rem;font-size:13px;font-weight:700;color:var(--accent)">&#128222; 24/7 emergency line, no answering service</p>
+        <p class="hc-note">&#128222; 24/7 emergency line, no answering service.</p>
       </div>
     </div>
   </div>
 </section>
-
-<section class="img-section">
-  <div class="container">
-    <img src="/assets/img/photos/twin-oaks-valley-hero.webp" alt="Twin Oaks Valley in San Marcos, CA" width="1600" height="900" loading="eager" fetchpriority="high" class="hero-photo">
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Plumbing in Twin Oaks Valley</h2>
-    <p>Twin Oaks Valley is a lower-density, rural-feeling section of San Marcos built around Twin Oaks Golf Course, which opened in 1993, and known for its equestrian trails and larger ranch-style properties. Lot sizes here run noticeably larger than most of San Marcos, which changes the plumbing picture in a specific way: longer supply and drain runs across a property, and in some cases, private septic or well systems rather than standard city connections. The area's more rural character, despite being fully inside San Marcos city limits, means service calls here often look different from a typical suburban lot.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <div class="panel-card">
-      <h2>If You Have a Burst Pipe or Active Leak in Twin Oaks Valley</h2>
+<div class="container stats-wrap"><div class="stat-strip"><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Round the Clock</b><span>Emergency dispatch, day and night.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><div><b>Diagnose First</b><span>The cause is found before a quote.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z"/></svg></span><div><b>Plain Options</b><span>Repair or replace, explained clearly.</span></div></div><div class="stat"><span class="stat-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.2A7 7 0 0 0 5 9.8C5 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Local Dispatch</b><span>Based at 2461 2nd St, San Marcos.</span></div></div></div></div>
+<div class="page-body">
+  <div class="container layout">
+    <div class="main-col">
+      <div class="block block--lead"><h2>Plumbing in Twin Oaks Valley</h2>
+    <p>Twin Oaks Valley is a lower-density, rural-feeling section of San Marcos built around Twin Oaks Golf Course, which opened in 1993, and known for its equestrian trails and larger ranch-style properties. Lot sizes here run noticeably larger than most of San Marcos, which changes the plumbing picture in a specific way: longer supply and drain runs across a property, and in some cases, private septic or well systems rather than standard city connections. The area's more rural character, despite being fully inside San Marcos city limits, means service calls here often look different from a typical suburban lot.</p></div>
+      <div class="steps-wrap"><p class="eyebrow">How a visit works</p><div class="steps"><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Call the 24/7 line</h3><p>Tell us what is happening in Twin Oaks Valley and we send the nearest available plumber.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>We diagnose first</h3><p>We find the real cause before any price is quoted, so there are no surprises.</p></div><div class="step"><div class="step-num" aria-hidden="true"></div><h3>Repair or replace</h3><p>You get plain options for repair or replacement, then the fix done properly.</p></div></div></div>
+      <div class="block block--alert"><span class="alert-tag">Emergency steps</span><h2>If You Have a Burst Pipe or Active Leak in Twin Oaks Valley</h2>
       <ul class="checklist">
-        <li>Shut off the nearest local valve, or the main shutoff, to stop the flow</li>
-        <li>Call (760) 986-1999, dispatch is staffed around the clock</li>
-        <li>Move anything valuable away from the affected area if it's safe to do so</li>
-        <li>Avoid running additional water through fixtures near the affected line</li>
-      </ul>
+        <li>Shut off the nearest local valve, or the main shutoff, to stop the flow.</li>
+        <li>Call (760) 986-1999, dispatch is staffed around the clock.</li>
+        <li>Move anything valuable away from the affected area if it's safe to do so.</li>
+        <li>Avoid running additional water through fixtures near the affected line.</li>
+      </ul></div>
+      <div class="card-grid"><div class="block"><h2>Larger Lots, Longer Runs</h2>
+    <p>A property on an acre or more in Twin Oaks Valley often has supply lines running significantly farther from the street connection to the house than a standard suburban lot, which means pressure loss over distance and the location of buried line leaks both need to be assessed differently than on a typical San Marcos parcel. Some of the larger equestrian properties in this area also have separate plumbing runs out to barns, outbuildings, or irrigation systems serving pastures, which is worth mentioning up front on any service call. Homes built at different points from the 1990s through the 2000s in the Twin Oaks Valley Ranch development also show more construction-era variety than a single-phase subdivision would.</p></div><div class="block"><h2>From Twin Oaks Golf Course to the Equestrian Properties</h2>
+        <p>Coverage includes the neighborhoods surrounding Twin Oaks Golf Course on N. Twin Oaks Valley Road, the Twin Oaks Valley Ranch community, and the larger equestrian and ranch-style properties spread across the valley. We're used to working on properties with significant acreage, multiple structures, and the specific plumbing considerations that come with rural-feeling parcels still inside city limits. Properties near Walnut Grove Equestrian Park and the surrounding trail network are a regular part of our coverage area as well.</p></div><div class="block"><h2>Common Calls We See in Twin Oaks Valley</h2>
+    <p>Well and septic-adjacent plumbing questions come up more often here than almost anywhere else in San Marcos, even on properties that are ultimately connected to city water and sewer, simply because the area has historically had more private systems than the rest of the city. Long supply-line pressure issues and <a href="/leak-detection/">leak detection</a> on buried lines covering more distance than a typical suburban lot are also common. Larger properties with barns or outbuildings sometimes need <a href="/general-plumbing-repair/">plumbing work</a> on structures beyond the main house, which is factored into scheduling and scope from the first call. This area sits north of <a href="/lake-san-marcos/">Lake San Marcos</a> and within easy reach of <a href="/escondido/">Escondido</a> and <a href="/vista/">Vista</a>.</p></div></div>
+      <div class="block faq-block"><h2>Frequently Asked Questions</h2><div class="faq-item">
+        <div class="faq-q"><span>Do you offer 24/7 emergency plumbing in Twin Oaks Valley?</span><span>+</span></div>
+        <div class="faq-answer"><p>Yes. Dispatch is staffed around the clock for burst pipes, active leaks, and no-hot-water calls throughout Twin Oaks Valley, including larger acreage and equestrian properties.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do you cover every ZIP code in Twin Oaks Valley?</span><span>+</span></div>
+        <div class="faq-answer"><p>The valley itself falls mostly within 92069, though a handful of properties along its southern edge cross into 92078. Either way, anywhere in the Twin Oaks Valley area, from the golf course to the more rural equestrian parcels, is within our coverage.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do you work on properties with septic systems or private wells?</span><span>+</span></div>
+        <div class="faq-answer"><p>We handle the plumbing within the home and its connections. Septic and well systems themselves are a specialized service we can point you toward if that's specifically what's needed, but supply and drain line issues on these properties are within our scope.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Can you service a property with a barn or outbuilding on a separate line?</span><span>+</span></div>
+        <div class="faq-answer"><p>Yes, we're familiar with the layout of larger equestrian and ranch-style properties in this area, including plumbing that extends beyond the main house.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do you service properties near Twin Oaks Golf Course as well as more rural parcels?</span><span>+</span></div>
+        <div class="faq-answer"><p>Yes, coverage includes both the neighborhoods immediately around the golf course and the larger, more rural equestrian properties spread across the valley.</p></div>
+      </div><div class="faq-item">
+        <div class="faq-q"><span>Do longer supply lines on a big property affect repair pricing?</span><span>+</span></div>
+        <div class="faq-answer"><p>They can, a longer run means more pipe and potentially more labor to access a specific section, which is factored into the quote once the issue's location is confirmed rather than assumed up front.</p></div>
+      </div></div>
     </div>
-  </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Larger Lots, Longer Runs</h2>
-    <p>A property on an acre or more in Twin Oaks Valley often has supply lines running significantly farther from the street connection to the house than a standard suburban lot, which means pressure loss over distance and the location of buried line leaks both need to be assessed differently than on a typical San Marcos parcel. Some of the larger equestrian properties in this area also have separate plumbing runs out to barns, outbuildings, or irrigation systems serving pastures, which is worth mentioning up front on any service call. Homes built at different points from the 1990s through the 2000s in the Twin Oaks Valley Ranch development also show more construction-era variety than a single-phase subdivision would.</p>
-  </div>
-</section>
-
-<section style="background:var(--bg3)">
-  <div class="container">
-    <div class="hero-grid">
-      <div class="prose">
-        <h2>From Twin Oaks Golf Course to the Equestrian Properties</h2>
-        <p>Coverage includes the neighborhoods surrounding Twin Oaks Golf Course on N. Twin Oaks Valley Road, the Twin Oaks Valley Ranch community, and the larger equestrian and ranch-style properties spread across the valley. We're used to working on properties with significant acreage, multiple structures, and the specific plumbing considerations that come with rural-feeling parcels still inside city limits. Properties near Walnut Grove Equestrian Park and the surrounding trail network are a regular part of our coverage area as well.</p>
-      </div>
-      <div><img src="/assets/img/photos/twin-oaks-valley-secondary.webp" alt="A local view in the Twin Oaks Valley area of San Marcos, CA" width="1600" height="900" loading="lazy" class="featured-img"></div>
+    <aside class="side" aria-label="Call and related pages">
+    <div class="cta-widget">
+      <span class="cta-badge"><i class="pulse"></i>24/7 Emergency Line Open</span>
+      <p class="cta-title">Plumbing problem right now?</p>
+      <a class="cta-num" href="tel:+17609861999">(760) 986-1999</a>
+      <a class="btn cta-btn" href="tel:+17609861999">Call Now</a>
+      <ul class="cta-points"><li>Dispatch runs around the clock.</li><li>The cause is found before a quote.</li><li>Repair or replace, explained plainly.</li></ul>
+      <div class="cta-zips"><span>ZIP codes we serve</span><div class="zips"><span class="zip-chip">92069</span><span class="zip-chip">92078</span></div></div>
     </div>
+    <div class="side-links"><p class="side-h">Nearby Areas We Serve</p><ul><li><a href="/san-elijo-hills/">Plumber in San Elijo Hills</a></li><li><a href="/lake-san-marcos/">Plumber in Lake San Marcos</a></li><li><a href="/escondido/">Plumber in Escondido</a></li><li><a href="/vista/">Plumber in Vista</a></li><li><a href="/carlsbad/">Plumber in Carlsbad</a></li><li><a href="/oceanside/">Plumber in Oceanside</a></li><li><a href="/areas/">All service areas</a></li></ul><p class="side-note">Not sure what you need? Call and we will point you to the right service.</p></div>
+  </aside>
   </div>
-</section>
-
-<section>
-  <div class="container prose" style="max-width:900px;margin:0 auto">
-    <h2>Common Calls We See in Twin Oaks Valley</h2>
-    <p>Well and septic-adjacent plumbing questions come up more often here than almost anywhere else in San Marcos, even on properties that are ultimately connected to city water and sewer, simply because the area has historically had more private systems than the rest of the city. Long supply-line pressure issues and <a href="/leak-detection/">leak detection</a> on buried lines covering more distance than a typical suburban lot are also common. Larger properties with barns or outbuildings sometimes need <a href="/general-plumbing-repair/">plumbing work</a> on structures beyond the main house, which is factored into scheduling and scope from the first call. This area sits north of <a href="/lake-san-marcos/">Lake San Marcos</a> and west of <a href="/santa-fe-hills/">Santa Fe Hills</a>.</p>
-  </div>
-</section>
-
-<section>
+</div>
+<section class="after">
   <div class="container">
     <div class="section-head">
       <h2>Top Services for Twin Oaks Valley Homes</h2>
@@ -413,7 +421,6 @@
     </div>
   </div>
 </section>
-
 <section style="background:var(--bg3)">
   <div class="container">
     <div class="section-head"><h2>Coverage Map</h2></div>
@@ -422,52 +429,12 @@
     </div>
   </div>
 </section>
-
-<section>
-  <div class="container">
-    <div class="section-head"><h2>Frequently Asked Questions</h2></div>
-    <div style="max-width:800px;margin:0 auto">
-      
-      <div class="faq-item">
-        <div class="faq-q"><span>Do you offer 24/7 emergency plumbing in Twin Oaks Valley?</span><span>+</span></div>
-        <div class="faq-answer"><p>Yes. Dispatch is staffed around the clock for burst pipes, active leaks, and no-hot-water calls throughout Twin Oaks Valley, including larger acreage and equestrian properties.</p></div>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-q"><span>Do you cover every ZIP code in Twin Oaks Valley?</span><span>+</span></div>
-        <div class="faq-answer"><p>The valley itself falls mostly within 92069, though a handful of properties along its southern edge cross into 92078. Either way, anywhere in the Twin Oaks Valley area, from the golf course to the more rural equestrian parcels, is within our coverage.</p></div>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-q"><span>Do you work on properties with septic systems or private wells?</span><span>+</span></div>
-        <div class="faq-answer"><p>We handle the plumbing within the home and its connections. Septic and well systems themselves are a specialized service we can point you toward if that's specifically what's needed, but supply and drain line issues on these properties are within our scope.</p></div>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-q"><span>Can you service a property with a barn or outbuilding on a separate line?</span><span>+</span></div>
-        <div class="faq-answer"><p>Yes, we're familiar with the layout of larger equestrian and ranch-style properties in this area, including plumbing that extends beyond the main house.</p></div>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-q"><span>Do you service properties near Twin Oaks Golf Course as well as more rural parcels?</span><span>+</span></div>
-        <div class="faq-answer"><p>Yes, coverage includes both the neighborhoods immediately around the golf course and the larger, more rural equestrian properties spread across the valley.</p></div>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-q"><span>Do longer supply lines on a big property affect repair pricing?</span><span>+</span></div>
-        <div class="faq-answer"><p>They can, a longer run means more pipe and potentially more labor to access a specific section, which is factored into the quote once the issue's location is confirmed rather than assumed up front.</p></div>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
 </main>
 
 <section class="coverage-map-section">
   <div class="container">
     <div class="map-wrap">
-      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed"></iframe>
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="San Marcos Express Plumbing coverage area map" aria-label="San Marcos Express Plumbing coverage area map" src="https://www.google.com/maps?q=San Marcos,+CA&output=embed&z=11"></iframe>
     </div>
   </div>
 </section>
