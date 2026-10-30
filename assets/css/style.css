@@ -358,3 +358,10 @@ footer{padding:2.5rem 0 1.25rem}
 @media(max-width:900px) and (min-width:769px){.logo img{height:50px}}
 @media(max-width:768px){.nav-inner{min-height:72px}.logo img{height:48px}}
 @media(max-width:420px){.logo img{height:42px}}
+
+/* footer social links */
+.footer-social-label{margin-top:1.1rem;margin-bottom:.55rem;font-family:'Outfit';font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff}
+footer .footer-social{display:flex;flex-wrap:wrap;gap:.5rem;margin:0}
+footer .footer-social li{margin:0}
+footer .footer-social a{display:inline-flex;align-items:center;min-height:36px;padding:.35rem .85rem;border:1px solid #3A3E5C;border-radius:999px;font-size:13.5px;font-weight:600;color:#DDE0F5;transition:background .15s,border-color .15s,color .15s}
+footer .footer-social a:hover,footer .footer-social a:focus-visible{background:#2547E8;border-color:#2547E8;color:#fff}
